@@ -312,5 +312,76 @@ form button {
     form {
         width: 70%;
     }
+}
 
+@media screen and (min-width: 1024px) {
+    main {
+        padding: 0.5em;
+        display: grid;
+        grid-template-areas:
+        "portada portada"
+        "quienes-somos por-que-elegirnos"
+        "propuesta-educativa propuesta-educativa"
+        "ultimas-noticias ultimas-noticias";
+    }
+
+    main > .Portada {
+        grid-area: portada;
+    }
+
+    main > .quienes-somos {
+        grid-area: quienes-somos;
+    }
+
+    main > .por-que-elegirnos {
+        grid-area: por-que-elegirnos;
+    }
+
+    main > .propuesta-educativa {
+        grid-area: propuesta-educativa;
+    }
+
+    main > .ultimas-noticias {
+        grid-area: ultimas-noticias;
+    }
+
+    .quienes-somos {
+        display: grid;
+        grid-template-areas: 
+        "h2 h2"
+        "img img"
+        "p p";
+    }
+
+    .quienes-somos > h2 {
+        grid-area: h2;
+    }
+
+    .quienes-somos > img {
+        grid-area: img;
+    }
+
+    .quienes-somos > p {
+        grid-area: p;
+    }
+
+    .por-que-elegirnos {
+        display: grid;
+        grid-template-areas: 
+        "h2 h2"
+        "img img"
+        "p p";
+    }
+
+    .por-que-elegirnos > h2 {
+        grid-area: h2;
+    }
+
+    .por-que-elegirnos > img {
+        grid-area: img;
+    }
+
+    .por-que-elegirnos > p {
+        grid-area: p;
+    }
 }
