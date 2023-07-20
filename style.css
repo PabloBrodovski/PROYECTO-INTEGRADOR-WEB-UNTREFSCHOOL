@@ -165,29 +165,6 @@ section iframe {
     height: 6em;
 }
 
-form {
-    background-color: #00425a;
-    display: flex;
-    flex-direction: column;
-    margin: 0.5em;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    font-size: small;
-}
-
-form label {
-    color: #eff5fe;
-}
-
-form textarea {
-    font-family: 'Poppins', sans-serif;
-}
-
-form button {
-    background-color: #fc7300;
-    color: #00425a;
-    font-weight: 700;
-}
 
 @media screen and (min-width: 768px) {
     .quienes-somos {
@@ -308,10 +285,6 @@ form button {
         width: 15em;
         height: 6em;
     }
-
-    form {
-        width: 70%;
-    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -322,7 +295,7 @@ form button {
         "portada portada"
         "quienes-somos por-que-elegirnos"
         "propuesta-educativa propuesta-educativa"
-        "ultimas-noticias ultimas-noticias";
+        "ultimas-noticias ultimas-noticias"
     }
 
     main > .Portada {
