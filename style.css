@@ -15,6 +15,7 @@ a {
     color: #eff5fe;
     font-family: 'Belanosima', sans-serif;
     font-size: small;
+    text-align: center;
 }
 
 .nav a:hover {
@@ -167,6 +168,19 @@ section iframe {
 
 
 @media screen and (min-width: 768px) {
+
+    header {
+        height: 25px;
+    }
+
+    a {
+        font-size: medium;
+    }
+
+    section p {
+        font-size: medium;
+    }
+
     .quienes-somos {
         padding: 0.5em;
         display: grid;
@@ -227,7 +241,6 @@ section iframe {
 
     .propuesta-educativa > p {
         grid-area: p;
-        font-size: medium;
     }
 
     .propuesta-educativa > .h3-2 {
@@ -240,7 +253,6 @@ section iframe {
 
     .propuesta-educativa > .p-2 {
         grid-area: p-2;
-        font-size: medium;
     }
 
     .ultimas-noticias {
@@ -289,7 +301,7 @@ section iframe {
 
 @media screen and (min-width: 1024px) {
     main {
-        padding: 0.5em;
+        padding: 2em;
         display: grid;
         grid-template-areas:
         "portada portada"
